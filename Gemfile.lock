@@ -1,0 +1,32 @@
+PATH
+  remote: .
+  specs:
+    advent (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.12.2)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    rake (10.5.0)
+    terminal-table (2.0.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    thor (1.0.1)
+    tty-color (0.6.0)
+    unicode-display_width (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  advent!
+  bundler (~> 1.17)
+  minitest (~> 5.0)
+  pastel
+  rake (~> 10.0)
+  terminal-table (~> 2.0)
+  thor (~> 1.0)
+
+BUNDLED WITH
+   1.17.3
